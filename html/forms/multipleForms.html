@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+      div{
+        margin-top:5px;
+      }
+      .nested input{
+        margin-top:5px;
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h2>Already Registered? <u>Login</u> now</h2>
+      <!-- image to be used:
+      https://ninjasfiles.s3.amazonaws.com/0000000000001395.png -->
+
+      <form action="" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="abc@gmail.com" />
+        <label for="password">Password</label>
+        <input type="password" name="password" />
+        <button type="button">
+          <img
+            width="50"
+            height="13"
+            src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png"
+          />
+          Login
+        </button>
+      </form>
+    </header>
+
+    <hr />
+    <br />
+    <br />
+
+    <main>
+      <section>
+        <h3><a href="">Coding Ninjas Blogs</a></h3>
+
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png"
+          alt="coding ninjas love coding"
+        />
+      </section>
+      <hr />
+      <br />
+      <br />
+
+      <section>
+        <h2><u>Registration</u></h2>
+        <br />
+        <form action="" method="post">
+          <div>
+            <label for="firstName" style="margin-right:50px">First Name:</label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+          <div>
+            <label for="lastName" style="margin-right:52px">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+          <div class="nested">
+              <label" style="margin-right:50px">Current Address:</label>
+              
+              <label for="houseNo" style="margin-right:50px;margin-left:50px;">Flat No./ House No.:</label>
+              <input type="text" name="houseNo" id="houseNo" /><br/>
+              <label for="localty" style="margin-right:131px;margin-left:162px;">Localty:</label>
+              <input type="text" name="localty" id="localty" /><br/>
+              <label for="city" style="margin-right:152px;margin-left:162px;">City:</label>
+              <input type="text" name="city" id="city" /><br/>
+             
+            </div>
+  
+          <div>
+            <label for="isAddress"
+              ><b>Is Current address and Permanent address same?</b></label
+            >
+            <input type="radio" name="isAddress" checked />Yes
+            <input type="radio" name="isAddress" />No
+          </div>
+            <label for="email" style="margin-right:75px">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="password"style="margin-right:52px">Password:</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <!-- <table></table> -->
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
