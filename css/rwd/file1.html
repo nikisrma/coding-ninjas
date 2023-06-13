@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Design</title>
+</head>
+<body>
+    <div>
+        <div id="div1" class="resp"> </div>
+    	<div id="div2" class="resp"> </div>
+    	<div id="div3" class="resp"> </div>
+    </div>
+    
+</body>
+</html>
+
+
+.resp{
+	width:32%;
+    height:300px;
+    margin:0.4%;
+    display:inline-block;
+}
+
+#div1{
+    background-color:#ff8989;
+}
+
+
+#div2{
+    background-color:#88f7ce;
+}
+
+
+#div3{
+    background-color:#e29df2;
+}
+
+@media only screen and (max-width:600px) {
+    .resp{
+        width:100%;
+        margin:0;
+        display:block;
+    }
+}
