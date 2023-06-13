@@ -1,17 +1,34 @@
 """
-4444
-333
-22
-1
+       1
+     232
+   34543
+ 4567654
+567898765
 """
-## Read input as specified in the question
-## Print the required output in given format
+from math import *
+from collections import *
+from sys import *
+from os import *
+
+## Read input as specified in the question.
+## Print output as specified in the question.
 n = int(input())
 i=1
 while i<=n:
-    j = 1
-    while j<=n-i+1:
-        print(n-i+1,end='')
-        j = j+1
+    spaces = n-i
+    j=1
+    while j<=spaces:
+        print(' ',end='')
+        j=j+1
+    k=i
+    while k<=(2*i)-1:
+        print(k,end='')
+        k= k+1
+    m=1
+    while m<i:
+        print((2*i)-m-1,end='')
+        m=m+1
     print()
     i = i+1
+
+
